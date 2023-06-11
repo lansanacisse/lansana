@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+    /* Mettez vos styles CSS spécifiques pour les petits écrans ici */
+    /* Par exemple : */
+    header {
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav li {
+        margin-bottom: 10px;
+    }
+    #containt {
+        padding: 10px;
+    }
+    #medias {
+        margin-top: 20px;
+    }
+}

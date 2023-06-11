@@ -1,0 +1,78 @@
+/* Caracteristique de la page entiere*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* l'entete de la page */
+header {
+    background-color: #333;
+    color: #fafafa;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 20px;
+    margin-bottom: 0%;
+    font-size: 36px;
+    position: static;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+    
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    float: left;
+
+}
+
+.lien {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.lien:hover {
+    background-color: #111;
+}
+
+div h1 {
+    text-align: center;
+}
+
+#sociaux {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#sociaux li {
+    margin-right: 30px;
+} 
+
+#sociaux li a {
+    font-size: 24px; 
+    color: #333; 
+    text-decoration: none;
+}
+  
+#sociaux li a:hover {
+    color: #007bff; 
+}
+  

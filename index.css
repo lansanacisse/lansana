@@ -1,0 +1,80 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  #containt {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  #acceuil {
+    margin-bottom: 20px;
+  }
+  
+  #medias {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#medias img {
+    max-width: 100%;
+    height: 1000%;
+}
+
+embed {
+    width: "100%";
+}
+
+
+/* Styles CSS pour la flèche */
+.arrow-link {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.fa-house {
+    font-size: 50px;
+    color: rgb(10, 10, 10);
+  }
+  
+  
+  .arrow-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
