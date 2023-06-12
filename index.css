@@ -43,38 +43,9 @@ body {
     height: 1000%;
 }
 
-embed {
-    width: "100%";
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-
-/* Styles CSS pour la flèche */
-.arrow-link {
-    display: inline-block;
-    padding-right: 10px;
-}
-
-.arrow {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    padding: 5px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-}
-
-.fa-house {
-    font-size: 50px;
-    color: rgb(10, 10, 10);
-  }
-  
-  
-  .arrow-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  

@@ -1,11 +1,9 @@
-/* Caracteristique de la page entiere*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* l'entete de la page */
 header {
     background-color: #333;
     color: #fafafa;
@@ -55,10 +53,10 @@ nav li {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
-
 
 .personnel {
     padding: 20px; 
@@ -67,15 +65,8 @@ nav li {
     align-items: center;
 }
   
-.personnel h2 {
-    font-size: 24px; 
-    margin-bottom: 10px;
-}
-  
+
 .personnel p {
     font-size: 18px; 
     line-height: 1.5;
   }
-  
-
- 
