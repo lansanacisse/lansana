@@ -64,3 +64,12 @@ nav li {
 h1 {
     text-align: center;
 }
+
+#droits {
+    text-align: center; 
+    background-color: #f0f0f0;
+    padding: 10px; 
+    font-size: 14px;
+    color: #333;
+  }
+  
